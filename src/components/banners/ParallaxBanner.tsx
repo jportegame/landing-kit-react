@@ -1,7 +1,5 @@
-import { Parallax } from "react-parallax";
+import { ParallaxProvider, Parallax } from "react-scroll-parallax";
 import { FaChevronDown } from "react-icons/fa";
-
-import bannerImage from "../../assets/defaultBanner.jpg";
 import { useEffect } from "react";
 
 interface ParallaxBannerProps {
@@ -11,42 +9,49 @@ interface ParallaxBannerProps {
 }
 
 const ParallaxBanner = ({
-  image = bannerImage,
+  image = "/medellinBanner.jpg",
   title = "Vive la experiencia Balu",
   subtitle = "Boutique Coliving para nómadas digitales",
 }: ParallaxBannerProps) => {
-  
   useEffect(() => {
-  if (window.scrollY === 0) {
-    const timeout = setTimeout(() => {
-      window.scrollTo({ top: 50, behavior: "smooth" })
-      setTimeout(() => {
-        window.scrollTo({ top: 0, behavior: "smooth" })
-      }, 400)
-    }, 1500)
-
-    return () => clearTimeout(timeout)
-  }
-}, [])
+    if (window.scrollY === 0) {
+      const timeout = setTimeout(() => {
+        window.scrollTo({ top: 50, behavior: "smooth" });
+        setTimeout(() => {
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        }, 400);
+      }, 1500);
+      return () => clearTimeout(timeout);
+    }
+  }, []);
 
   return (
-    <Parallax
-      bgImage={image}
-      strength={400}
-      bgImageStyle={{ objectFit: "cover" }}
-    >
-      <div className="h-screen flex flex-col justify-center items-center text-white text-center px-4">
-        
-        <h1 className="text-5xl md:text-6xl font-bold mb-4 drop-shadow-md">
-          {title}
-        </h1>
-        <p className="text-lg md:text-xl drop-shadow-sm">{subtitle}</p>
-     
-        <div className="absolute bottom-6 animate-bounce text-white">
-          <FaChevronDown size={40} />
+    <ParallaxProvider>
+      <div className="relative h-screen overflow-hidden">
+        {/* Imagen con parallax */}
+        <Parallax speed={-20}>
+          <img
+            src={image}
+            alt="Banner"
+            className="w-full h-screen object-cover"
+          />
+        </Parallax>
+
+        {/* Overlay oscuro */}
+        <div className="absolute inset-0 bg-black/40 z-10" />
+
+        {/* Contenido centrado */}
+        <div className="absolute inset-0 z-20 flex flex-col justify-center items-center text-white text-center px-4">
+          <h1 className="text-5xl md:text-6xl font-bold mb-4 drop-shadow-md">
+            {title}
+          </h1>
+          <p className="text-lg md:text-xl drop-shadow-sm">{subtitle}</p>
+          <div className="absolute bottom-6 animate-bounce text-white">
+            <FaChevronDown size={40} />
+          </div>
         </div>
       </div>
-    </Parallax>
+    </ParallaxProvider>
   );
 };
 
