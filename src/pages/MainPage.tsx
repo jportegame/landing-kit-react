@@ -3,15 +3,15 @@ import { type LayoutType } from "react-photo-album";
 import ParallaxBanner from "../components/banners/ParallaxBanner";
 import PhotoMosaic from "../components/mosaic/PhotoMosaic";
 import CarouselSection from "../components/carousel/Carousel";
-import BaluFeatureCard from "../features/balu/BaluFeatureCard";
 import ReviewsCarousel from "../components/reviews/ReviewsCarousel";
+import BaluCard from "../features/balu/BaluCard";
 
 const MainPage = () => {
   const banner = siteConfig.banner;
   const mosaic = siteConfig.mosaicSection;
 
   const getCarouselData = siteConfig.carouselSections.map((section, index) => (
-    <BaluFeatureCard
+    <BaluCard
       image={section.image}
       title={section.title}
       description1={section.description1}

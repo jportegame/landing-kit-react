@@ -792,4 +792,245 @@ export const siteConfig = {
     spacing: 4,
     padding: 0,
   },
+  aboutUs: {
+    callToAction: 'Are You Ready To Join Balu For An Unbelievable Experience In Medellin?',
+    description: 'Just a little heads up – this chapter in Medellin may completely change your life. If you are looking for cosy accommodation, a community of like minded souls & friendly bilingual hosts who are there to support you 24/7',
+    info: [
+      {
+        title: "Values (Balu's philosophy)",
+        image: "/about-us/values.jpg",
+        content: [
+          {
+            title: "Values of Balu",
+            description1: (
+              <>
+                We are a friendly, passionate group driven by curiosity to
+                travel, explore, and experience new cultures. Colombia is
+                calling, and we’re ready for the next exciting chapter.{" "}
+                <strong className="font-bold">
+                  Reach out to us today through our contact page!
+                </strong>
+              </>
+            ),
+            description2: (
+              <>
+                Strong communities are built on shared values. Balu is a place
+                where like-minded individuals connect. We seek those who value a
+                peaceful, positive, and enjoyable environment.{" "}
+                <strong className="font-bold">
+                  Please ensure the values below resonate with you.
+                </strong>
+              </>
+            ),
+            image: "/about-us/values/values.jpg",
+          },
+          {
+            title: "Respect",
+            description1: (
+              <>
+                For your housemates, the culture, and the property itself. We've
+                created a safe environment where people can live an
+                unforgettable experience. If you're looking for a party
+                atmosphere, guest flexibility, or somewhere to bring random
+                dates, this is not the place. Safety is our number 1 priority.{" "}
+                <strong className="font-bold">
+                  We value a peaceful environment for everyone.
+                </strong>
+              </>
+            ),
+            description2: (
+              <>
+                We welcome trusted individuals but have a very strict guest
+                policy. Transparency is key for us. We always require ID for
+                anyone entering the property, and we do not allow overnight
+                guests.{" "}
+                <strong className="font-bold">
+                  Your safety and privacy are always our priority.
+                </strong>
+              </>
+            ),
+            image: "/about-us/values/respect.jpg",
+          },
+          {
+            title: "Kindness",
+            description1: (
+              <>
+                Humble folks only, please. Life is more enjoyable when we are
+                humble, caring, and kind! We all play a part in creating a
+                positive living dynamic. Co-living can be a wonderful
+                experience, but please ensure this is the right environment for
+                you. Are you looking for shared experiences? Friends to go out
+                to dinner with? A group to attend a salsa class? If you’re
+                looking to explore a new city with nice souls, this is the right
+                place for you.{" "}
+                <strong className="font-bold">
+                  Let’s make it an unforgettable experience together!
+                </strong>
+              </>
+            ),
+            description2: (
+              <>
+                If you’ve never stayed in a co-living space before and have
+                questions, we’re here to answer them. We’ve created Balu
+                Coliving to provide you with a community from the moment you
+                arrive in Medellín.{" "}
+                <strong className="font-bold">
+                  Join us and experience the warmth of our community.
+                </strong>
+              </>
+            ),
+            image: "/about-us/values/kindness.jpg",
+          },
+          {
+            title: "Integrity",
+            description1: (
+              <>
+                We live in an honest, supportive, and trusting environment.
+                Please always keep this in mind. We ensure that the shared
+                spaces are kept clean, and we respect each other’s property.
+                Your room will be deep cleaned once a week, and fresh bed linen
+                and towels will be provided. Everyone plays a part in keeping
+                the shared spaces spotless, especially the kitchen. We become a
+                family during our time together.{" "}
+                <strong className="font-bold">
+                  Respect and cleanliness are key values here.
+                </strong>
+              </>
+            ),
+            description2: (
+              <>
+                Everyone at Balu is here to support you during your time in
+                Medellín. You’ll have bilingual hosts who are happy to assist
+                you with anything you need. Need a taxi on arrival? No worries.
+                Looking for the best local cafes? We’ve got you covered.
+                Whatever you need, we are here to help.{" "}
+                <strong className="font-bold">
+                  We are Balu Coliving, and we’re here to support you.
+                </strong>
+              </>
+            ),
+            image: "/about-us/values/integrity.jpg",
+          },
+          {
+            title: "Community",
+            description1: (
+              <>
+                At the heart of everything we do, we are all unique, coming
+                together from different cultures around the world. Let’s learn
+                from one another and enjoy a memorable chapter in Medellín. We
+                all share the common goal of living in Medellín for a period of
+                our lives. Let’s learn, live, and explore together.{" "}
+                <strong className="font-bold">Community is key at Balu.</strong>
+              </>
+            ),
+            description2: (
+              <>
+                In Medellín, you will find a community or WhatsApp group for
+                almost anything! Trekking, Salsa, Foodies, Sport, Music – the
+                list goes on. Medellín is an incredible place to live and work,
+                and it’s our responsibility to ensure you have the best
+                experience possible here. We are always here to help.{" "}
+                <strong className="font-bold">
+                  Let’s make your time in Medellín unforgettable.
+                </strong>
+              </>
+            ),
+            image: "/about-us/values/community.jpg",
+          },
+        ],
+      },
+      {
+        title: "Running Club",
+        image: "/about-us/running.jpg",
+        content: [
+          {
+            title: "Join the Running Club",
+            description1: (
+              <>
+                Running in Medellín is one of the best ways to explore the city
+                while staying fit. Our running club welcomes all fitness levels,
+                whether you’re a beginner or an experienced runner. Enjoy the
+                beautiful parks, scenic routes, and camaraderie as we run
+                through the city together.{" "}
+                <strong className="font-bold">Come run with us!</strong>
+              </>
+            ),
+            description2: (
+              <>
+                We organize weekly runs in different parts of the city. Join us
+                for a fun and challenging experience, meet new friends, and
+                enjoy the outdoors! Whether it’s early morning or evening,
+                there’s always a spot for you in the Balu Running Club.{" "}
+                <strong className="font-bold">
+                  Let’s run and have fun together.
+                </strong>
+              </>
+            ),
+            image: "/about-us/running.jpg",
+          },
+        ],
+      },
+      {
+        title: "Hikes",
+        image: "/about-us/hikes.jpg",
+        content: [
+          {
+            title: "Explore Medellín’s Nature",
+            description1: (
+              <>
+                Medellín is surrounded by breathtaking mountains and beautiful
+                hiking trails. Our hiking group explores the city’s nature,
+                offering hikes for all levels, from easy walks to more
+                challenging hikes. We aim to explore the stunning natural beauty
+                of the region while bonding with others in the Balu community.{" "}
+                <strong className="font-bold">Join us on our next hike!</strong>
+              </>
+            ),
+            description2: (
+              <>
+                Whether you want to explore lush forests, visit waterfalls, or
+                take in panoramic city views, there’s a hike for you. Come
+                discover the hidden gems of Medellín and enjoy fresh air,
+                stunning views, and great company.{" "}
+                <strong className="font-bold">Let’s explore together!</strong>
+              </>
+            ),
+            image: "/about-us/hikes/trail.jpg",
+          },
+        ],
+      },
+      {
+        title: "Community",
+        image: "/about-us/community.jpg",
+        content: [
+          {
+            title: "Balu’s Community Spirit",
+            description1: (
+              <>
+                At Balu, community is at the heart of everything we do. We bring
+                together people from all over the world to create a space where
+                everyone can feel at home. We offer a variety of activities to
+                help you connect with others, whether it’s through group
+                dinners, outdoor activities, or just socializing in the shared
+                spaces.{" "}
+                <strong className="font-bold">Join our community today!</strong>
+              </>
+            ),
+            description2: (
+              <>
+                From weekly events to spontaneous meet-ups, Balu is the place to
+                form lasting friendships and create unforgettable memories.
+                Whether you’re a digital nomad, a traveler, or just looking for
+                a place to belong, we welcome you to our community.{" "}
+                <strong className="font-bold">
+                  Let’s build this community together!
+                </strong>
+              </>
+            ),
+            image: "/about-us/community/spirit.jpg",
+          },
+        ],
+      },
+    ],
+  },
 };

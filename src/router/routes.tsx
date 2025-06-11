@@ -7,11 +7,12 @@ import MainPage from "../pages/MainPage";
 import UnderConstructionPage from "../pages/UnderConstructionPage";
 import OurRoomsPage from "../pages/OurRoomsPage";
 import RoomDetailsPage from "../pages/RoomsDetailsPage";
+import AboutUsPage from "../pages/AboutUsPage";
 
 const pageComponents: Record<string, JSX.Element> = {
   MainPage: <MainPage />,
   OurRoomsPage: <OurRoomsPage />,
-  AboutUsPage: <UnderConstructionPage />,
+  AboutUsPage: <AboutUsPage />,
   DigitalNomadsPage: <UnderConstructionPage />,
   ContactUsPage: <UnderConstructionPage />,
 };
