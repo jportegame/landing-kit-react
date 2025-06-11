@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import { siteConfig } from '../../config/siteConfig'
 import { HiOutlineMenu, HiOutlineX } from 'react-icons/hi'
+import Logo from '../../assets/logo.png'
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -12,7 +13,7 @@ const Navbar = () => {
     <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-black/30">
       <nav className="container mx-auto flex items-center justify-between px-6 py-4">
         {/* Logo a la izquierda */}
-        <img src="./logo.png" alt="Logo" className="h-10" />
+        <img src={Logo} alt="Logo" className="h-10" />
 
         {/* Enlaces + botón + hamburguesa */}
         <div className="flex items-center gap-4">

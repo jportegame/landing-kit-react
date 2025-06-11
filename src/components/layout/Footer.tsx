@@ -6,6 +6,7 @@ import {
   FaWhatsapp,
   FaEnvelope,
 } from "react-icons/fa";
+import Logo from '../../assets/logo.png'
 
 const Footer = () => {
   const { footer } = siteConfig;
@@ -28,7 +29,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
         {/* Col 1: Logo y Acerca de */}
         <div>
-          <img src="./logo.png" alt="Logo" className="h-12 mb-4" />
+          <img src={Logo} alt="Logo" className="h-12 mb-4" />
           <h4 className="text-lg font-semibold mb-2">About us</h4>
           <p className="text-sm text-gray-300 mb-4">
             {footer.about.description}

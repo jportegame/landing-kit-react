@@ -29,7 +29,7 @@ const ParallaxBanner = ({
     <ParallaxProvider>
       <div className="relative h-screen overflow-hidden">
         {/* Imagen con parallax */}
-        <Parallax speed={-20}>
+        <Parallax speed={-40}>
           <img
             src={image}
             alt="Banner"
