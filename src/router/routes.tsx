@@ -9,13 +9,14 @@ import OurRoomsPage from "../pages/OurRoomsPage";
 import RoomDetailsPage from "../pages/RoomsDetailsPage";
 import AboutUsPage from "../pages/AboutUsPage";
 import DigitalNomadsPage from "../pages/DigitalNomadsPage";
+import ContactUsPage from "../pages/ContactUsPage";
 
 const pageComponents: Record<string, JSX.Element> = {
   MainPage: <MainPage />,
   OurRoomsPage: <OurRoomsPage />,
   AboutUsPage: <AboutUsPage />,
   DigitalNomadsPage: <DigitalNomadsPage />,
-  ContactUsPage: <UnderConstructionPage />,
+  ContactUsPage: <ContactUsPage />,
 };
 
 export const routes: RouteObject[] = [

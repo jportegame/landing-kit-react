@@ -25,6 +25,21 @@ export const siteConfig = {
   ],
   contact: {
     whatsapp: "573001234567",
+    whatsapplabel: "+57 312 696 5333",
+    email: "balucoliving@gmail.com",
+    social: [
+      { icon: "facebook", url: "https://www.facebook.com/balucoliving/" },
+      {
+        icon: "instagram",
+        url: "https://www.instagram.com/balucolivingmedellin/",
+      },
+    ],
+    additionalInfo: {
+      title: "Why Choose Balu?",
+      description:
+        "At Balu, we provide a safe, friendly, and productive environment for Digital Nomads and travelers alike. Whether you are here for work or leisure, you will find a welcoming community ready to share experiences and create new memories together.",
+      image: "/contact-us/why-choose-balu.png",
+    },
   },
   banner: {
     title: "Balu Coliving",
