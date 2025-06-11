@@ -793,8 +793,10 @@ export const siteConfig = {
     padding: 0,
   },
   aboutUs: {
-    callToAction: 'Are You Ready To Join Balu For An Unbelievable Experience In Medellin?',
-    description: 'Just a little heads up – this chapter in Medellin may completely change your life. If you are looking for cosy accommodation, a community of like minded souls & friendly bilingual hosts who are there to support you 24/7',
+    callToAction:
+      "Are You Ready To Join Balu For An Unbelievable Experience In Medellin?",
+    description:
+      "Just a little heads up – this chapter in Medellin may completely change your life. If you are looking for cosy accommodation, a community of like minded souls & friendly bilingual hosts who are there to support you 24/7",
     info: [
       {
         title: "Values (Balu's philosophy)",
@@ -1030,6 +1032,157 @@ export const siteConfig = {
             image: "/about-us/community/spirit.jpg",
           },
         ],
+      },
+    ],
+  },
+  digitalNomads: {
+    description1: (
+      <>
+        <strong className="font-bold">
+          Balu is an environment where you can feel safe, appreciated and
+          respected.
+        </strong>{" "}
+        We understand that work is a big part of everyone’s lives and our values
+        in our living environment reflect this. It’s really important for us
+        that it is a good fit for both sides. We want you to have the most
+        enjoyable experience in Medellin, in a safe living environment. If you
+        are looking for flexibility with bringing guests or individuals from
+        dating apps then it’s not the right environment for you. We have a
+        really strict guest policy as the safety of our guests will always be
+        our number one priority.
+      </>
+    ),
+    description2: (
+      <>
+        <strong className="font-bold">
+          Our guests typically fall in the 20 – 40 age category.
+        </strong>{" "}
+        Everyone is either working online, or in the process of creating their
+        own business. Please ensure that it’s the right environment for you. We
+        love a social outside of Balu but it’s definitely an environment where
+        we respect that everyone is working Monday – Friday.
+      </>
+    ),
+    info: [
+      {
+        title: "Living With Like-Minded Souls",
+        description1: (
+          <>
+            <strong className="font-bold">
+              We speak with every guest before they are able to book.
+            </strong>{" "}
+            It’s important that it’s the right living environment for both
+            sides. At Balu, you don’t have to worry about a housemate throwing a
+            huge party on a Tuesday night, knowing you have an important meeting
+            in just a few hours. We’ve got the chilled working / living
+            environment covered for you.
+          </>
+        ),
+        description2: (
+          <>
+            At Balu, you’re going to walk into a relaxed environment where you
+            can focus on your work but also{" "}
+            <strong className="font-bold">
+              meet amazing souls on day one.
+            </strong>
+          </>
+        ),
+        image: "/digital-nomads/living-with-like-minded-souls.jpg",
+      },
+      {
+        title: "Minimum 30 Day Stay",
+        description1: (
+          <>
+            <strong className="font-bold">
+              We value community and continuity.
+            </strong>{" "}
+            At Balu, we believe there is nothing better than living in an
+            environment where you can actually get to know your housemates. No
+            random short stays. Everyone at Balu is committed to a minimum
+            30-day stay. New bonds are created. Real friendships are formed.
+          </>
+        ),
+        description2: (
+          <>
+            A minimum 30-day stay not only allows you to develop long-lasting
+            friendships with your new housemates, but it also allows you to
+            <strong className="font-bold">
+              discover all of the wonderful experiences that Medellín offers.
+            </strong>
+          </>
+        ),
+        image: "/digital-nomads/minimum-stay.jpg",
+      },
+      {
+        title: "Community Activities",
+        description1: (
+          <>
+            <strong className="font-bold">
+              Dinners. Weekends away. Dance partners. Gym buddies.
+            </strong>{" "}
+            One of the biggest wins at Balu is walking into an environment where
+            you have access to good souls from day one. Enjoy exploring Medellín
+            with your new housemates.
+          </>
+        ),
+        description2: (
+          <>
+            It can be difficult when you move to a new city where you don’t know
+            anyone.{" "}
+            <strong className="font-bold">
+              Balu gives you access to a community of lovely souls from the
+              moment you touch down in Medellín.
+            </strong>
+          </>
+        ),
+        image: "/digital-nomads/community-activities.jpg",
+      },
+      {
+        title: "Medellín Community",
+        description1: (
+          <>
+            <strong className="font-bold">
+              The Digital Nomad scene is thriving in Medellín.
+            </strong>{" "}
+            Almost every activity you can think of has a WhatsApp Group in
+            Medellín. You’ll find yourself well and truly at home in the city of
+            eternal spring.
+          </>
+        ),
+        description2: (
+          <>
+            Medellín has recently overtaken Buenos Aires as the most popular
+            spot in South America for Digital Nomads. Balu Coliving is based in
+            the Laureles neighborhood, which was recently voted by{" "}
+            <strong className="font-bold">
+              Time Out Magazine as the coolest neighborhood in the world.
+            </strong>
+          </>
+        ),
+        image: "/digital-nomads/medellin-community.jpg",
+      },
+      {
+        title: "Beauty of Colombia",
+        description1: (
+          <>
+            <strong className="font-bold">Colombia is a paradise.</strong>{" "}
+            Whether it’s the gorgeous beaches of the Caribbean Coast, the unique
+            charm of beautiful pueblos such as Jardin, or the epic magic of the
+            Amazon – Colombia has it all. It would be our pleasure to share all
+            of our secret tips with you. We love you, Colombia.
+          </>
+        ),
+        description2: (
+          <>
+            Colombia is the second most biodiverse country in the world. It
+            really does have it all.{" "}
+            <strong className="font-bold">
+              We hope to welcome you to Balu Coliving Medellín soon. Please send
+              us a message if you have any questions.
+            </strong>
+          </>
+        ),
+        image: "/digital-nomads/beauty-of-colombia.jpg",
       },
     ],
   },

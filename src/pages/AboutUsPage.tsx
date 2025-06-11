@@ -19,16 +19,17 @@ const AboutUsPage = () => {
     }
   };
 
-  const closeModal = () => {
+  /* const closeModal = () => {
     if (modalRef.current) {
       modalRef.current.closeModal();
     }
-  };
+  }; */
 
   const getModalData =
     selectedTopic !== -1
       ? info[selectedTopic].content.map((item, index) => (
           <InfoCard
+            key={index}
             title={item.title}
             image={item.image}
             description1={item.description1}

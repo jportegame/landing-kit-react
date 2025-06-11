@@ -8,12 +8,13 @@ import UnderConstructionPage from "../pages/UnderConstructionPage";
 import OurRoomsPage from "../pages/OurRoomsPage";
 import RoomDetailsPage from "../pages/RoomsDetailsPage";
 import AboutUsPage from "../pages/AboutUsPage";
+import DigitalNomadsPage from "../pages/DigitalNomadsPage";
 
 const pageComponents: Record<string, JSX.Element> = {
   MainPage: <MainPage />,
   OurRoomsPage: <OurRoomsPage />,
   AboutUsPage: <AboutUsPage />,
-  DigitalNomadsPage: <UnderConstructionPage />,
+  DigitalNomadsPage: <DigitalNomadsPage />,
   ContactUsPage: <UnderConstructionPage />,
 };
 
