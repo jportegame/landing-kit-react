@@ -4,7 +4,7 @@ import DefaultLayout from "../layout/DefaultLayout";
 import { siteConfig } from "../config/siteConfig";
 
 import MainPage from "../pages/MainPage";
-import UnderConstructionPage from "../pages/UnderConstructionPage";
+//import UnderConstructionPage from "../pages/UnderConstructionPage";
 import OurRoomsPage from "../pages/OurRoomsPage";
 import RoomDetailsPage from "../pages/RoomsDetailsPage";
 import AboutUsPage from "../pages/AboutUsPage";
