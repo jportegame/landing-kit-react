@@ -24,7 +24,7 @@ export const siteConfig = {
     { path: "/contact", label: "Contact Us", component: "ContactUsPage" },
   ],
   contact: {
-    whatsapp: "573001234567",
+    whatsapp: "573126965333",
     whatsapplabel: "+57 312 696 5333",
     email: "balucoliving@gmail.com",
     social: [

@@ -51,7 +51,7 @@ const AboutUsPage = () => {
           <ImageCard
             onClick={() => {
               setSelectedTopic(index);
-              openModal();
+              setTimeout(openModal, 100);
             }}
             key={index}
             data={item}

@@ -1,19 +1,21 @@
-import { useState } from 'react'
-import { NavLink } from 'react-router-dom'
-import { siteConfig } from '../../config/siteConfig'
-import { HiOutlineMenu, HiOutlineX } from 'react-icons/hi'
-import Logo from '../../assets/logo.png'
+import { useState } from "react";
+import { NavLink } from "react-router-dom";
+import { siteConfig } from "../../config/siteConfig";
+import { HiOutlineMenu, HiOutlineX } from "react-icons/hi";
+import Logo from "../../assets/logo.png";
 
 const Navbar = () => {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  const toggleMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen)
+  const toggleMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-black/30">
       <nav className="container mx-auto flex items-center justify-between px-6 py-4">
         {/* Logo a la izquierda */}
-        <img src={Logo} alt="Logo" className="h-10" />
+        <NavLink to="/">
+          <img src={Logo} alt="Logo" className="h-10" />
+        </NavLink>
 
         {/* Enlaces + botón + hamburguesa */}
         <div className="flex items-center gap-4">
@@ -26,8 +28,8 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     `transition duration-200 pb-1 border-b-2 ${
                       isActive
-                        ? 'text-white border-white'
-                        : 'text-white/70 border-transparent hover:text-white hover:border-white'
+                        ? "text-white border-white"
+                        : "text-white/70 border-transparent hover:text-white hover:border-white"
                     }`
                   }
                 >
@@ -70,8 +72,8 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     `block transition duration-200 pb-1 border-b-2 ${
                       isActive
-                        ? 'text-white border-white'
-                        : 'text-white/70 border-transparent hover:text-white hover:border-white'
+                        ? "text-white border-white"
+                        : "text-white/70 border-transparent hover:text-white hover:border-white"
                     }`
                   }
                 >
@@ -83,7 +85,7 @@ const Navbar = () => {
         </div>
       )}
     </header>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
