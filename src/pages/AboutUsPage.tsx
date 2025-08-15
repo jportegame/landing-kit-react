@@ -27,7 +27,7 @@ const AboutUsPage = () => {
 
   const getModalData =
     selectedTopic !== -1
-      ? info[selectedTopic].content.map((item, index) => (
+      ? info[selectedTopic].content.map((item: any, index) => (
           <InfoCard
             key={index}
             title={item.title}
@@ -35,6 +35,7 @@ const AboutUsPage = () => {
             description1={item.description1}
             description2={item.description2}
             imagePosition={index % 2 === 0 ? "left" : "right"}
+            callToAction={item.callToAction}
           />
         ))
       : null;

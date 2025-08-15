@@ -24,7 +24,7 @@ const OurRoomsPage = () => {
           <RoomCard key={room.slug} room={room} />
         ))}
       </div>
-      {/* Collage */}
+      {/* Common Areas */}
       <section className="px-6 py-5 mt-4 bg-white text-center">
         <h2 className="text-4xl font-bold mb-4">{commonAreas.title}</h2>
         <p className="text-gray-600 max-w-4xl mx-auto mb-10">

@@ -24,8 +24,8 @@ export const siteConfig = {
     { path: "/contact", label: "Contact Us", component: "ContactUsPage" },
   ],
   contact: {
-    whatsapp: "573126965333",
-    whatsapplabel: "+57 312 696 5333",
+    whatsapp: "573232850861",
+    whatsapplabel: "+57 323 285 0861",
     email: "balucoliving@gmail.com",
     social: [
       { icon: "facebook", url: "https://www.facebook.com/balucoliving/" },
@@ -44,22 +44,22 @@ export const siteConfig = {
   banner: {
     title: "Balu Coliving",
     description:
-      "Boutique Coliving Life is short - Let's enjoy it ☀️ Medellín - Colombia ",
-    image: "./medellinBanner.jpg",
+      "Boutique Coliving - Life Is Short - Let's Enjoy It - Medellin - Colombia",
+    image: "./mountainsBanner.jpg",
   },
   mosaicSection: {
     title: "Our Lifestyle",
     description:
-      "Life at Balu Coliving is more than just a place to stay — it’s a shared experience of creativity, nature, connection, and joy. Our photo collage captures the vibrant energy of our community: from morning yoga and shared meals to hikes, workspaces, and cultural exchanges. This is the spirit of Balu — a space where digital nomads, travelers, and creators come together to live with intention.",
+      "Life at Balu Coliving is more than just a place to stay — it’s a shared experience of creativity, nature, connection, and joy. Our photo collage captures the vibrant energy of our community: from our hikes & shared meals to our run club, , fun daytrips and cultural exchanges. This is the spirit of Balu — a space where digital nomads, good souls, and creators come together to create lifelong memories.",
     images: [
       { src: "./collage/collage1.jpg", width: 2048, height: 1366 },
-      { src: "./collage/collage2.jpg", width: 426, height: 756 },
+      { src: "./collage/collage2.jpg", width: 1200, height: 1600 },
       { src: "./collage/collage3.jpg", width: 768, height: 576 },
       { src: "./collage/collage4.jpg", width: 2048, height: 1366 },
       { src: "./collage/collage5.jpg", width: 2048, height: 1366 },
       { src: "./collage/collage6.jpg", width: 1875, height: 1251 },
-      { src: "./collage/collage7.jpg", width: 2048, height: 1366 },
-      { src: "./collage/collage8.jpg", width: 2048, height: 1536 },
+      { src: "./collage/collage7.jpg", width: 2500, height: 1804 },
+      { src: "./collage/collage8.jpg", width: 1600, height: 1200 },
       { src: "./collage/collage9.png", width: 360, height: 360 },
       { src: "./collage/collage10.jpg", width: 1440, height: 1080 },
       { src: "./collage/collage11.jpg", width: 1600, height: 1200 },
@@ -81,7 +81,7 @@ export const siteConfig = {
       description1:
         "Balu Coliving is full of beautifully curated spaces to relax, work or enjoy. Chill on the spacious balcony, focus on work in the designated coworking space or put your feet up in the cosy living room. Connect with interesting souls from all over the world. Network. Be inspired. Make life long friends. It is time to create memories in Medellin.",
       description2:
-        "All of our private rooms have been specially designed to create the ideal living environment for Digital Nomads. Each room has it’s own private bathroom, work desk, private fridge, air conditioning, smart tv & fast wifi.",
+        "All of our private rooms have been specially designed to create the ideal living environment for Digital Nomads. Each room has it’s own private bathroom, work desk, air conditioning, smart tv & fast wifi.",
       cta: "Stay & Live At Balu",
     },
     {
@@ -89,7 +89,7 @@ export const siteConfig = {
       image: "./carousel/create-experience.jpg",
       title: "Create & Experience",
       description1:
-        "Balu is so much more than a coliving space. It is an experience that will stay with you forever. We are located in the heart of Laureles near cute cafes, coworking spaces, restaurants, bars, supermarkets and gyms. We are also a short walk to the best salsa venue in Medellin – Son Havana. Perfect location. Amazing accommodation. Genuine connections",
+        "Balu is so much more than a coliving space. It is an experience that will stay with you forever. We are located in the heart of Laureles near cute cafes, coworking spaces, restaurants, bars, supermarkets and gyms. We are also a short walk to Saludpan which is one the most amazing places to eat in Laureles. Perfect location. Amazing accommodation. Genuine connections",
       description2:
         "Balu is the perfect environment for living, working & socialising. You will be living your best life. This is your time to experience a new way of living.",
       cta: "Create & Experience At Balu",
@@ -166,7 +166,7 @@ export const siteConfig = {
       ],
     },
     contact: {
-      whatsapp: "+57 312 696 5333",
+      whatsapp: "+57 323 285 0861",
       email: "balucoliving@gmail.com",
     },
     quickMenu: [
@@ -212,6 +212,12 @@ export const siteConfig = {
           alt: "Room 1 - Image 3",
           width: 2500,
           height: 1667,
+        },
+        {
+          src: "/our-rooms/room-1/courtyard.jpg",
+          alt: "Room 1 - Image 5",
+          width: 1667,
+          height: 2500,
         },
       ],
       features: [
@@ -279,11 +285,6 @@ export const siteConfig = {
         },
       ],
       features: [
-        {
-          title: "Private Bathroom",
-          description: "Hot water 24/7",
-          icon: <FaShower />,
-        },
         {
           title: "Work Desk & Comfy Chair",
           icon: <FaDesktop />,
@@ -406,6 +407,12 @@ export const siteConfig = {
           alt: "Room 4 - Image 2",
           width: 2500,
           height: 1667,
+        },
+        {
+          src: "/our-rooms/room-4/room4-2.jpg",
+          alt: "Room 4 - Image 2",
+          width: 3750,
+          height: 2500,
         },
       ],
       features: [
@@ -544,6 +551,18 @@ export const siteConfig = {
           alt: "Room 6 - Image 3",
           width: 2500,
           height: 1667,
+        },
+        {
+          src: "/our-rooms/room-6/courtyard.jpg",
+          alt: "Room 1 - Image 6",
+          width: 1667,
+          height: 2500,
+        },
+        {
+          src: "/our-rooms/room-6/room6-4.jpg",
+          alt: "Room 6 - Image 4",
+          width: 3750,
+          height: 2500,
         },
       ],
       features: [
@@ -783,6 +802,12 @@ export const siteConfig = {
           title: "Work Desk & Comfy Seating Area",
           icon: <FaDesktop />,
         },
+        {
+          title: "Located on the ground floor",
+          description:
+            "Our Studio is perfect as you have a separate / private entrance. You get the best of both worlds as you still have access to the main building & Balu community, whilst also having more privacy.",
+          icon: <FaRegWindowMaximize />,
+        },
       ],
     },
   ],
@@ -983,6 +1008,10 @@ export const siteConfig = {
                 </strong>
               </>
             ),
+            callToAction: {
+              text: "Join the Running Club",
+              link: "https://chat.whatsapp.com/GsywlXkbuuaIYrBTPNm7zE",
+            },
             image: "/about-us/running.jpg",
           },
         ],
@@ -1012,6 +1041,10 @@ export const siteConfig = {
                 <strong className="font-bold">Let’s explore together!</strong>
               </>
             ),
+            callToAction: {
+              text: "Join the Hiking Group",
+              link: "https://chat.whatsapp.com/GsWXMOHO6Je6dvCrEvY5Wq",
+            },
             image: "/about-us/hikes/trail.jpg",
           },
         ],
@@ -1103,30 +1136,6 @@ export const siteConfig = {
           </>
         ),
         image: "/digital-nomads/living-with-like-minded-souls.jpg",
-      },
-      {
-        title: "Minimum 30 Day Stay",
-        description1: (
-          <>
-            <strong className="font-bold">
-              We value community and continuity.
-            </strong>{" "}
-            At Balu, we believe there is nothing better than living in an
-            environment where you can actually get to know your housemates. No
-            random short stays. Everyone at Balu is committed to a minimum
-            30-day stay. New bonds are created. Real friendships are formed.
-          </>
-        ),
-        description2: (
-          <>
-            A minimum 30-day stay not only allows you to develop long-lasting
-            friendships with your new housemates, but it also allows you to
-            <strong className="font-bold">
-              discover all of the wonderful experiences that Medellín offers.
-            </strong>
-          </>
-        ),
-        image: "/digital-nomads/minimum-stay.jpg",
       },
       {
         title: "Community Activities",
