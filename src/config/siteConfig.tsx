@@ -37,7 +37,7 @@ export const siteConfig = {
     additionalInfo: {
       title: "Why Choose Balu?",
       description:
-        "At Balu, we provide a safe, friendly, and productive environment for Digital Nomads and travelers alike. Whether you are here for work or leisure, you will find a welcoming community ready to share experiences and create new memories together.",
+        "At Balu, we provide a safe, friendly and productive environment for Digital Nomads and travelers alike. Whether you are here for work or leisure, you will find a welcoming community ready to share experiences and create new memories together.",
       image: "/contact-us/why-choose-balu.png",
     },
   },
@@ -50,7 +50,7 @@ export const siteConfig = {
   mosaicSection: {
     title: "Our Lifestyle",
     description:
-      "Life at Balu Coliving is more than just a place to stay — it’s a shared experience of creativity, nature, connection, and joy. Our photo collage captures the vibrant energy of our community: from our hikes & shared meals to our run club, , fun daytrips and cultural exchanges. This is the spirit of Balu — a space where digital nomads, good souls, and creators come together to create lifelong memories.",
+      "Life at Balu Coliving is more than just a place to stay — it’s a shared experience of creativity, nature, connection, and joy. Our photo collage captures the vibrant energy of our community: from our hikes & shared meals to our run club, fun daytrips and cultural exchanges. This is the spirit of Balu — a space where digital nomads, good souls, and creators come together to create lifelong memories.",
     images: [
       { src: "./collage/collage1.jpg", width: 2048, height: 1366 },
       { src: "./collage/collage2.jpg", width: 1200, height: 1600 },
@@ -81,7 +81,7 @@ export const siteConfig = {
       description1:
         "Balu Coliving is full of beautifully curated spaces to relax, work or enjoy. Chill on the spacious balcony, focus on work in the designated coworking space or put your feet up in the cosy living room. Connect with interesting souls from all over the world. Network. Be inspired. Make life long friends. It is time to create memories in Medellin.",
       description2:
-        "All of our private rooms have been specially designed to create the ideal living environment for Digital Nomads. Each room has it’s own private bathroom, work desk, air conditioning, smart tv & fast wifi.",
+        "All of our private rooms have been specially designed to create the ideal living environment for Digital Nomads. Each room has it’s own Private Bathroom, Work Desk, Air Conditioning, Smart TV & Fast Wifi.",
       cta: "Stay & Live At Balu",
     },
     {
@@ -89,7 +89,7 @@ export const siteConfig = {
       image: "./carousel/create-experience.jpg",
       title: "Create & Experience",
       description1:
-        "Balu is so much more than a coliving space. It is an experience that will stay with you forever. We are located in the heart of Laureles near cute cafes, coworking spaces, restaurants, bars, supermarkets and gyms. We are also a short walk to Saludpan which is one the most amazing places to eat in Laureles. Perfect location. Amazing accommodation. Genuine connections",
+        "Balu is so much more than a coliving space. It is an experience that will stay with you forever. We are located in the heart of Laureles near cute cafes, coworking spaces, restaurants, bars, supermarkets and gyms. We are also a short walk to Saludpan which is one of the most amazing places to eat in Laureles. Perfect location. Amazing accommodation. Genuine connections",
       description2:
         "Balu is the perfect environment for living, working & socialising. You will be living your best life. This is your time to experience a new way of living.",
       cta: "Create & Experience At Balu",
@@ -187,6 +187,7 @@ export const siteConfig = {
         "One of only two rooms that comes with a cute, shared courtyard full of lush green plants.",
       longDescription:
         "This room has a lovely shared courtyard with dining areas, relaxation benches, and more.",
+      priceDescription: 'All rooms are priced between $600 - $800 usd (based on a 30 day stay) - Please send us a WhatsApp for accurate pricing & availability',
       slug: "bedroom-1",
       images: [
         {
@@ -264,6 +265,7 @@ export const siteConfig = {
       longDescription:
         "It's the only bedroom in the house with a spacious private balcony with lots of room to work, chill or have an afternoon nap.",
       slug: "bedroom-2",
+      priceDescription: 'All rooms are priced between $600 - $800 usd (based on a 30 day stay) - Please send us a WhatsApp for accurate pricing & availability',
       images: [
         {
           src: "/our-rooms/room-2/room2-main.jpg",
@@ -323,6 +325,7 @@ export const siteConfig = {
       longDescription:
         "Wake up every morning to the beautiful hanging plants outside of the modern, bright and welcoming windows. It’s the perfect room for the early bird who loves lots of natural light.",
       slug: "bedroom-3",
+      priceDescription: 'All rooms are priced between $600 - $800 usd (based on a 30 day stay) - Please send us a WhatsApp for accurate pricing & availability',
       images: [
         {
           src: "/our-rooms/room-3/room3-main.jpg",
@@ -395,6 +398,7 @@ export const siteConfig = {
       longDescription:
         "Cute, Cosy & Comfortable - it's the perfect environment for the Digital Nomad who enjoys a delightful space.",
       slug: "bedroom-4",
+      priceDescription: 'All rooms are priced between $600 - $800 usd (based on a 30 day stay) - Please send us a WhatsApp for accurate pricing & availability',
       images: [
         {
           src: "/our-rooms/room-4/room4-main.jpg",
@@ -455,6 +459,7 @@ export const siteConfig = {
       longDescription:
         "A beautiful room that is ideal for one or two guests. Soft, warm, and inviting colours ensure this is one of the cosiest rooms at Balu. You will find lots of hanging plants, natural sunlight and welcoming features for you to have the perfect stay.",
       slug: "bedroom-5",
+      priceDescription: 'All rooms are priced between $600 - $800 usd (based on a 30 day stay) - Please send us a WhatsApp for accurate pricing & availability',
       images: [
         {
           src: "/our-rooms/room-5/room5-main.jpg",
@@ -527,6 +532,7 @@ export const siteConfig = {
       longDescription:
         "One of our most popular rooms. Our guests love to spend time in the chilled courtyard. Enjoy a morning coffee outside, reply to work emails from the long bench or just enjoy the glorious sunshine.",
       slug: "bedroom-6",
+      priceDescription: 'All rooms are priced between $600 - $800 usd (based on a 30 day stay) - Please send us a WhatsApp for accurate pricing & availability',
       images: [
         {
           src: "/our-rooms/room-6/room6-main.jpg",
@@ -609,6 +615,7 @@ export const siteConfig = {
       longDescription:
         "A beautifully shaped room makes this one of the guests’ favourites. It also comes with a huge work desk which is perfect for any Nomads travelling with a monitor.",
       slug: "bedroom-7",
+      priceDescription: 'All rooms are priced between $600 - $800 usd (based on a 30 day stay) - Please send us a WhatsApp for accurate pricing & availability',
       images: [
         {
           src: "/our-rooms/room-7/room7-main.jpg",
@@ -685,6 +692,7 @@ export const siteConfig = {
       longDescription:
         "A huge King-sized bed awaits you. You will love this room if you value the comforts of life. Not only does it have the biggest bed in Balu, it also has the largest bathroom and the second largest work desk. Let the good times roll.",
       slug: "bedroom-8",
+      priceDescription: 'All rooms are priced between $600 - $800 usd (based on a 30 day stay) - Please send us a WhatsApp for accurate pricing & availability',
       images: [
         {
           src: "/our-rooms/room-8/room8-1.jpg",
@@ -751,6 +759,7 @@ export const siteConfig = {
       longDescription:
         "Our modern, cosy and stylish studio is perfect for Nomads who enjoy all of the finer things in life.",
       slug: "studio",
+      priceDescription: 'All rooms are priced between $600 - $800 usd (based on a 30 day stay) - Please send us a WhatsApp for accurate pricing & availability',
       images: [
         {
           src: "/our-rooms/studio/studio-main.jpg",
@@ -947,7 +956,7 @@ export const siteConfig = {
                 Looking for the best local cafes? We’ve got you covered.
                 Whatever you need, we are here to help.{" "}
                 <strong className="font-bold">
-                  We are Balu Coliving, and we’re here to support you.
+                  We are Balu Coliving. We are always here to support you with whatever you need.
                 </strong>
               </>
             ),
@@ -1037,7 +1046,7 @@ export const siteConfig = {
                 Whether you want to explore lush forests, visit waterfalls, or
                 take in panoramic city views, there’s a hike for you. Come
                 discover the hidden gems of Medellín and enjoy fresh air,
-                stunning views, and great company.{" "}
+                stunning views and great company.{" "}
                 <strong className="font-bold">Let’s explore together!</strong>
               </>
             ),
@@ -1103,7 +1112,7 @@ export const siteConfig = {
     description2: (
       <>
         <strong className="font-bold">
-          Our guests typically fall in the 20 – 40 age category.
+          Our guests typically fall in the 20 – 45 age category.
         </strong>{" "}
         Everyone is either working online, or in the process of creating their
         own business. Please ensure that it’s the right environment for you. We

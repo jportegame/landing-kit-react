@@ -17,6 +17,7 @@ export interface Room {
   title: string;
   shortDescription: string;
   longDescription: string;
+  priceDescription: string;
   slug: string;
   images: RoomImage[];
   features: RoomFeature[];

@@ -89,9 +89,13 @@ const RoomCard = ({ room }: RoomCardProps) => {
       </div>
 
       <div className="px-6 pb-6">
+        <p className="mt-4 text-md font-semibold text-primary">
+          {room.priceDescription}
+        </p>
+        {/* View Room Button */}
         <a
           href={`/rooms/${room.slug}`}
-          className="flex items-center justify-center bg-primary text-white py-2 rounded-lg mt-8 hover:bg-opacity-80 transition"
+          className="flex items-center justify-center bg-primary text-white py-2 rounded-lg mt-2 hover:bg-opacity-80 transition"
         >
           <FaArrowRight className="mr-2" />
           View Room
