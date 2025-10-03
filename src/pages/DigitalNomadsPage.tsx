@@ -20,7 +20,7 @@ const DigitalNomadsPage = () => {
     <>
       <div>
         <SmallBanner
-          image="/digital-nomads/beauty-of-colombia.jpg"
+          image="/digital-nomads/mountains.jpg"
           title="Digital Nomads"
           subtitle="Discover the freedom of working remotely in Medellín"
         />

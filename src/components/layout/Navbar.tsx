@@ -2,7 +2,8 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { siteConfig } from "../../config/siteConfig";
 import { HiOutlineMenu, HiOutlineX } from "react-icons/hi";
-import Logo from "../../assets/logo.png";
+import LogoDesktop from "../../assets/logo.png";
+import LogoMobile from "../../assets/logo-mobile.png";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -14,7 +15,10 @@ const Navbar = () => {
       <nav className="container mx-auto flex items-center justify-between px-6 py-4">
         {/* Logo a la izquierda */}
         <NavLink to="/">
-          <img src={Logo} alt="Logo" className="h-10" />
+           {/* Logo desktop */}
+          <img src={LogoDesktop} alt="Logo" className="hidden lg:block h-10" />
+          {/* Logo mobile */}
+          <img src={LogoMobile} alt="Logo" className="block lg:hidden h-10" />
         </NavLink>
 
         {/* Enlaces + botón + hamburguesa */}

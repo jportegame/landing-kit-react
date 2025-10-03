@@ -45,7 +45,7 @@ export const siteConfig = {
     title: "Balu Coliving",
     description:
       "Boutique Coliving - Life Is Short - Let's Enjoy It - Medellin - Colombia",
-    image: "./mountainsBanner.JPG",
+    image: "./mountainsBanner.jpg",
   },
   mosaicSection: {
     title: "Our Lifestyle",
@@ -187,7 +187,7 @@ export const siteConfig = {
         "One of only two rooms that comes with a cute, shared courtyard full of lush green plants.",
       longDescription:
         "This room has a lovely shared courtyard with dining areas, relaxation benches, and more.",
-      priceDescription: 'All rooms are priced between $600 - $800 usd (based on a 30 day stay) - Please send us a WhatsApp for accurate pricing & availability',
+      priceDescription: 'All rooms are priced between $600 - $800 usd (based on a 30 day stay) - Please send us a WhatsApp for accurate pricing & availability.',
       slug: "bedroom-1",
       images: [
         {
@@ -261,11 +261,11 @@ export const siteConfig = {
     {
       title: "Bedroom 2",
       shortDescription:
-        "It's the only bedroom in the house with a spacious private balcony with lots of room to work, chill or have an afternoon nap.",
+        "A lovely room which has lots of natural light. It also has a private entrance to the shared house balcony.",
       longDescription:
-        "It's the only bedroom in the house with a spacious private balcony with lots of room to work, chill or have an afternoon nap.",
+        "A lovely room which has lots of natural light. It also has a private entrance to the shared house balcony.",
       slug: "bedroom-2",
-      priceDescription: 'All rooms are priced between $600 - $800 usd (based on a 30 day stay) - Please send us a WhatsApp for accurate pricing & availability',
+      priceDescription: 'All rooms are priced between $600 - $800 usd (based on a 30 day stay) - Please send us a WhatsApp for accurate pricing & availability.',
       images: [
         {
           src: "/our-rooms/room-2/room2-main.jpg",
@@ -325,7 +325,7 @@ export const siteConfig = {
       longDescription:
         "Wake up every morning to the beautiful hanging plants outside of the modern, bright and welcoming windows. It’s the perfect room for the early bird who loves lots of natural light.",
       slug: "bedroom-3",
-      priceDescription: 'All rooms are priced between $600 - $800 usd (based on a 30 day stay) - Please send us a WhatsApp for accurate pricing & availability',
+      priceDescription: 'All rooms are priced between $600 - $800 usd (based on a 30 day stay) - Please send us a WhatsApp for accurate pricing & availability.',
       images: [
         {
           src: "/our-rooms/room-3/room3-main.jpg",
@@ -398,7 +398,7 @@ export const siteConfig = {
       longDescription:
         "Cute, Cosy & Comfortable - it's the perfect environment for the Digital Nomad who enjoys a delightful space.",
       slug: "bedroom-4",
-      priceDescription: 'All rooms are priced between $600 - $800 usd (based on a 30 day stay) - Please send us a WhatsApp for accurate pricing & availability',
+      priceDescription: 'All rooms are priced between $600 - $800 usd (based on a 30 day stay) - Please send us a WhatsApp for accurate pricing & availability.',
       images: [
         {
           src: "/our-rooms/room-4/room4-main.jpg",
@@ -459,7 +459,7 @@ export const siteConfig = {
       longDescription:
         "A beautiful room that is ideal for one or two guests. Soft, warm, and inviting colours ensure this is one of the cosiest rooms at Balu. You will find lots of hanging plants, natural sunlight and welcoming features for you to have the perfect stay.",
       slug: "bedroom-5",
-      priceDescription: 'All rooms are priced between $600 - $800 usd (based on a 30 day stay) - Please send us a WhatsApp for accurate pricing & availability',
+      priceDescription: 'All rooms are priced between $600 - $800 usd (based on a 30 day stay) - Please send us a WhatsApp for accurate pricing & availability.',
       images: [
         {
           src: "/our-rooms/room-5/room5-main.jpg",
@@ -532,7 +532,7 @@ export const siteConfig = {
       longDescription:
         "One of our most popular rooms. Our guests love to spend time in the chilled courtyard. Enjoy a morning coffee outside, reply to work emails from the long bench or just enjoy the glorious sunshine.",
       slug: "bedroom-6",
-      priceDescription: 'All rooms are priced between $600 - $800 usd (based on a 30 day stay) - Please send us a WhatsApp for accurate pricing & availability',
+      priceDescription: 'All rooms are priced between $600 - $800 usd (based on a 30 day stay) - Please send us a WhatsApp for accurate pricing & availability.',
       images: [
         {
           src: "/our-rooms/room-6/room6-main.jpg",
@@ -615,7 +615,7 @@ export const siteConfig = {
       longDescription:
         "A beautifully shaped room makes this one of the guests’ favourites. It also comes with a huge work desk which is perfect for any Nomads travelling with a monitor.",
       slug: "bedroom-7",
-      priceDescription: 'All rooms are priced between $600 - $800 usd (based on a 30 day stay) - Please send us a WhatsApp for accurate pricing & availability',
+      priceDescription: 'All rooms are priced between $600 - $800 usd (based on a 30 day stay) - Please send us a WhatsApp for accurate pricing & availability.',
       images: [
         {
           src: "/our-rooms/room-7/room7-main.jpg",
@@ -692,7 +692,7 @@ export const siteConfig = {
       longDescription:
         "A huge King-sized bed awaits you. You will love this room if you value the comforts of life. Not only does it have the biggest bed in Balu, it also has the largest bathroom and the second largest work desk. Let the good times roll.",
       slug: "bedroom-8",
-      priceDescription: 'All rooms are priced between $600 - $800 usd (based on a 30 day stay) - Please send us a WhatsApp for accurate pricing & availability',
+      priceDescription: 'All rooms are priced between $600 - $800 usd (based on a 30 day stay) - Please send us a WhatsApp for accurate pricing & availability.',
       images: [
         {
           src: "/our-rooms/room-8/room8-1.jpg",
@@ -759,7 +759,7 @@ export const siteConfig = {
       longDescription:
         "Our modern, cosy and stylish studio is perfect for Nomads who enjoy all of the finer things in life.",
       slug: "studio",
-      priceDescription: 'All rooms are priced between $600 - $800 usd (based on a 30 day stay) - Please send us a WhatsApp for accurate pricing & availability',
+      priceDescription: 'All rooms are priced between $600 - $800 usd (based on a 30 day stay) - Please send us a WhatsApp for accurate pricing & availability.',
       images: [
         {
           src: "/our-rooms/studio/studio-main.jpg",
@@ -1215,7 +1215,7 @@ export const siteConfig = {
             </strong>
           </>
         ),
-        image: "/digital-nomads/beauty-of-colombia.jpg",
+        image: "/digital-nomads/beauty-of-colombia.jpeg",
       },
     ],
   },
