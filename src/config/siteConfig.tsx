@@ -45,7 +45,7 @@ export const siteConfig = {
     title: "Balu Coliving",
     description:
       "Boutique Coliving - Life Is Short - Let's Enjoy It - Medellin - Colombia",
-    image: "./mountainsBanner.jpg",
+    image: "./antioquiaMountainsBanner.jpg",
   },
   mosaicSection: {
     title: "Our Lifestyle",
